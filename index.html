@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="author" content="Mohamed Fadl" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -24,12 +25,12 @@
         <div class="col-md-6 mx-auto">
           <h1>Form Validation</h1>
 
-          <form novalidate>
+          <form class="form-validate" novalidate>
             <div class="form-group">
               <label for="name">Name</label>
               <input class="form-control" type="text" id="name" />
               <div class="invalid-feedback">
-                Name must be between 3 and 12 characters
+                Enter valid name, Name must be between 3 and 16 characters
               </div>
             </div>
             <div class="form-group">
